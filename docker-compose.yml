@@ -1,0 +1,6 @@
+﻿services:
+  templatenet.api:
+    image: templatenet.api
+    build:
+      context: .
+      dockerfile: src/TemplateNet.Api/Dockerfile
